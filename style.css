@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 15px;
+  background: url(https://static-basket-01.wb.ru/vol0/marketing/shapkafon/shapka_fon_1111_2023.jpg) center/cover;
+  max-width: 1300px;
+}
+
+.head .block-1 {
+  display: flex;
+}
+.head .block-1 .linkWork {
+  color: #fff;
+  padding: 10px 10px 12px;
+  height: 20px;
+  background: #cb11ab;
+  border-radius: 40px;
+  margin-right: 30px;
+}
+.head .block-1 .linkJob {
+  color: #fff;
+  padding: 10px 10px 12px;
+  height: 20px;
+  background: #ff636d;
+  border-radius: 40px;
+}
+.head .block-1 a {
+  padding: 0 30px 20px 0;
+  display: flex;
+  align-items: center;
+}
+.head .block-1 a img {
+  margin-right: 8px;
+}
+.head a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.head a:hover {
+  color: #fff;
+}
+
+.block-2 {
+  display: flex;
+  align-items: center;
+}
+.block-2 .block-2__inner img {
+  width: 100%;
+  cursor: pointer;
+}
+.block-2 button {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 15px;
+}
+.block-2 button:hover {
+  border: 1px solid #fff;
+}
+.block-2 span {
+  width: 30px;
+  height: 4px;
+  background: #fff;
+  margin: 3.5px;
+  border-radius: 8px;
+}
+.block-2 input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: border-box;
+  outline: none;
+  font-size: 18px;
+}
+.block-2 form {
+  display: flex;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 90px;
+  width: 60%;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 15px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.block-2 form img {
+  cursor: pointer;
+}
+.block-2 form .search {
+  position: relative;
+  right: 25px;
+}
+.block-2 form:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+.block-2 form:focus-within:hover {
+  background-color: #fff;
+  color: #242424;
+}
+.block-2 .inner__0 {
+  display: flex;
+  font-size: 15px;
+}
+.block-2 .inner__0 .inner__1 {
+  padding: 0 17px;
+}
+.block-2 .inner__0 .inner__1 a {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.block-2 .inner__0 .inner__1 a img {
+  height: 25px;
+}
+
+.cont_main {
+  padding: 10px;
+}
+
+.card {
+  width: 200px;
+  height: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.card .cardImg {
+  background: url(https://basket-04.wb.ru/vol453/part45387/45387309/images/c516x688/1.webp) center/cover;
+  width: 100%;
+  height: 60%;
+  position: relative;
+  border-radius: 10px;
+}
+.card .cardImg .card_4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 8px 0;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  opacity: 0.9;
+  display: none;
+}
+.card .fa-heart {
+  position: absolute;
+  right: 6%;
+  top: 8%;
+  color: #fff;
+  display: none;
+}
+.card .sale {
+  position: absolute;
+  bottom: 4%;
+  left: 4%;
+  background-color: #a10b15;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+  padding: 1px 2px;
+}
+.card .cardPrice {
+  width: 100%;
+  height: 35%;
+}
+.card .cardPrice del {
+  color: #9d9da5;
+}
+.card .cardPrice .card_1 {
+  padding-top: 10px;
+}
+.card .cardPrice .card_2 {
+  padding: 4px 0 2px 0;
+}
+.card .cardPrice .price {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.card .cardPrice .d-none {
+  display: none;
+  color: #9d9da5;
+  padding: 0 0 4px 0;
+}
+.card .cardBot span {
+  color: #9d9da5;
+}
+.card .cardBot .card_5 {
+  padding: 5px 0;
+}
+.card .cardBot i {
+  margin-right: 5px;
+}
+.card .cardBot .card_3 {
+  padding: 0 0 8px 0;
+}
+.card .cardBtn {
+  padding: 7px 15px;
+  background-color: #cb11ab;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+  position: absolute;
+  display: none;
+  bottom: 15px;
+}
+.card .cardBtn:hover {
+  background-color: #e313bf;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 1.5px 1.5px 10px #9d9da5;
+}
+.card:hover .card_4 {
+  display: block;
+}
+.card:hover .cardBtn {
+  display: block;
+}
+.card:hover .d-none {
+  display: block;
+}
+.card:hover .fa-heart {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
